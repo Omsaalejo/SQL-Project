@@ -1,0 +1,64 @@
+package co.edu.unbosque.restful.model;
+
+public class Artist extends Person {
+
+    private String description;
+
+    public Artist(String nombre, String correo, String clave, String rol, double coins, String descripcion) {
+        super(nombre, correo, clave, rol, coins);
+        description = descripcion;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
+
+    public String getName() {
+        return super.name;
+    }
+
+    public void setName(String name) {
+        super.name = name;
+    }
+
+    public String getEmail() {
+        return super.email;
+    }
+
+    public void setEmail(String email) {
+        super.email = email;
+    }
+
+    public String getPassword() {
+        return super.password;
+    }
+
+    public void setPassword(String password) {
+        super.password = password;
+    }
+
+    public String getRole() {
+        return super.role;
+    }
+
+    public void setRole(String role) {
+        super.role = role;
+    }
+
+    public double getFcoins() {
+        return super.fcoins;
+    }
+
+    public void setFcoins(double fcoins) {
+        super.fcoins = fcoins;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+}
