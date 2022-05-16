@@ -17,34 +17,21 @@
             <input type="text" name="username" id="name" required><span class="barra"></span>
             <label>Nombre</label>
         </div>
-
-        <div class="grupo">
-            <input type="password" name="password" id="password" required><span class="barra"></span>
-            <label>Contraseña</label>
-        </div>
-
         <div class="grupo">
             <input type="email" name="email" id="email" required><span class="email"></span>
             <label>Correo</label>
         </div>
-
-
-
+        <div class="grupo">
+            <input type="password" name="password" id="password" required><span class="barra"></span>
+            <label>Contraseña</label>
+        </div>
+        
         <div class="form2">
-
-
-
-            <div class="grupo2">
-                <input type="radio" name="suy" id="buy">
-                <label>COMPRADOR</label>
-            </div>
-
-            <div class="grupo3">
-                <input type="radio" name="sell" id="sell">
-                <label>VENDEDOR</label>
-            </div>
-
-            <a href="index.html" class="button" type=" submit">Registrarse</a>
+            <select name="opciones" id="opciones" class="opciones">
+                <option value="Vendedor">Vendedor</option>
+                <option value="Comprador">Comprador</option>
+            </select>
+            <input type="submit" value="Registrar">
         </div>
 </form>
 <script src="main.js"></script>
